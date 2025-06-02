@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://your-image-link.com/banner.png" alt="Project Banner" width="100%" />
+  <img src="https://i.postimg.cc/15XFCSt5/MCP.png" alt="Project Banner"  />
 </div>
 
 <h1 align="center">🤖 AI Agents with MCP Server</h1>
