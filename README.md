@@ -49,70 +49,11 @@ git clone https://github.com/your-username/ai-agents-mcp-server.git
 cd ai-agents-mcp-server
 npm install
 ````
-
-Create `.env`:
-
-```ini
-OPENAI_API_KEY=your-openai-key
-GOOGLE_GENAI_API_KEY=your-google-genai-key
-MCP_SERVER_PORT=5000
-MONGO_URI=your-mongo-uri
-REDIS_URI=your-redis-uri
-```
-
 Run the server:
 
 ```bash
 npm start
 ```
-
----
-
-## ⚙️ Usage Guide
-
-### 1️⃣ Register an Agent
-
-```js
-// agents/example-agent.js
-export default {
-  name: 'example-agent',
-  validate: z.object({ /* schema */ }),
-  onMessage: async (context, payload) => { /* logic */ },
-  onResponse: async (result) => { /* output */ },
-};
-```
-
-### 2️⃣ Add Connectors
-
-```js
-// connectors/twitter.js
-// Twitter stream → MCP logic
-```
-
-### 3️⃣ Send Messages
-
-**REST**
-
-```http
-POST /api/message
-Content-Type: application/json
-
-{
-  "agent": "example-agent",
-  "payload": { ... }
-}
-```
-
-**WebSocket**
-
-```
-Connect to: ws://localhost:5000
-Emit:       agent-message
-Payload:    { agent, payload }
-```
-
----
-
 ## 🗂️ Folder Structure
 
 ```
