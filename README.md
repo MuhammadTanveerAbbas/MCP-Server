@@ -44,7 +44,7 @@ A production-grade, modular framework for deploying AI agents via a Multi-Channe
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/ai-agents-mcp-server.git
+git clone https://github.com/MuhammadTanveerAbbas/MCP-Server.git
 cd ai-agents-mcp-server
 npm install
 ````
