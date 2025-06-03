@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge" height="40" alt="npm logo" />
   <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge" height="40" alt="express logo" />
   <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" height="40" alt="nodejs logo" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="40" alt="docker logo" />
 </div>
 
 ---
@@ -37,7 +36,7 @@ A production-grade, modular framework for deploying AI agents via a Multi-Channe
 | 🧠 AI/ML          | OpenAI API, Google GenAI             |
 | ✅ Validation     | Zod                                  |
 | 📡 Messaging      | MCP SDK v1.8.0                       |
-| 🐳 Infrastructure | Docker, Redis (opt), MongoDB (opt)   |
+| 🐳 Infrastructure | Docker(opt), Redis (opt), MongoDB (opt)   |
 | ⚙️ Env Mgmt       | dotenv                               |
 
 ---
@@ -54,20 +53,6 @@ Run the server:
 ```bash
 npm start
 ```
-## 🗂️ Folder Structure
-
-```
-/
-├── agents/         → AI agent modules
-├── connectors/     → Channel connectors
-├── server/         → API, WebSocket, middleware
-├── config/         → Config schemas, .env logic
-├── utils/          → Common utilities
-├── tests/          → Unit/integration tests
-├── .env.example    → Env template
-└── README.md       → Project documentation
-```
-
 ---
 
 ## 📄 License
