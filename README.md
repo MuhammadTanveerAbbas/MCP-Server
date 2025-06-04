@@ -47,7 +47,6 @@ It supports:
 | **AI/ML**     | OpenAI API, Google GenAI        |
 | **Validation**| Zod                             |
 | **Messaging** | MCP SDK v1.8.0                  |
-| **Infra**     | Docker (optional), Redis (optional), MongoDB (optional) |
 | **Env Mgmt**  | dotenv                          |
 
 ---
