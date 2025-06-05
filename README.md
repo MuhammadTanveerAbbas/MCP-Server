@@ -19,11 +19,13 @@
 This project is a production-grade, modular framework for deploying AI agents via a **Multi-Channel Processing (MCP) server**. It enables real-time inference, multi-source data ingestion, and automated workflows using a plugin-based architecture.
 
 It supports:
+
 - Chat interaction using AI models like Google Gemini and OpenAI.
 - Task execution such as arithmetic operations or social media posting.
 - Integration of external tools through the **Model Context Protocol (MCP)**.
 
 🛠️ **How Does It Work?**
+
 1. **Start the Server**: Initializes and runs available tools/plugins.
 2. **Interact via Client**: Use a chat interface to send commands.
 3. **AI Processes Input**: Leverages AI models to generate responses and trigger plugins when needed.
@@ -32,22 +34,22 @@ It supports:
 
 ## 🧩 Key Features
 
-- **🧱 Modular Agent System** — Plug-and-play agents using MCP SDK & Zod for schema validation  
-- **⚡ Real-Time Data Flow** — Multi-channel input → AI inference → output pipeline  
-- **🔌 Extensible Architecture** — Agent plugins, channel connectors, and utility modules  
+- **🧱 Modular Agent System** — Plug-and-play agents using MCP SDK & Zod for schema validation
+- **⚡ Real-Time Data Flow** — Multi-channel input → AI inference → output pipeline
+- **🔌 Extensible Architecture** — Agent plugins, channel connectors, and utility modules
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer         | Technology                      |
-|---------------|----------------------------------|
-| **Runtime**   | Node.js v16+                    |
-| **Server**    | Express v5 + WebSocket          |
-| **AI/ML**     | OpenAI API, Google GenAI        |
-| **Validation**| Zod                             |
-| **Messaging** | MCP SDK v1.8.0                  |
-| **Env Mgmt**  | dotenv                          |
+| Layer          | Technology               |
+| -------------- | ------------------------ |
+| **Runtime**    | Node.js v16+             |
+| **Server**     | Express v5 + WebSocket   |
+| **AI/ML**      | OpenAI API, Google GenAI |
+| **Validation** | Zod                      |
+| **Messaging**  | MCP SDK v1.8.0           |
+| **Env**        | dotenv                   |
 
 ---
 
